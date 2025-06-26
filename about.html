@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Stacey</title>
+  <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+<nav>
+  <div class="nav-container">
+    <div class="brand">staceeeybbb</div>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
+      
+
+    </ul>
+  </div>
+</nav>
+
+
+<section class="about-wrapper">
+  <div class="about-container">
+    <img src="stacey.jpg" alt="Stacey's Profile" class="about-pic" />
+    <div class="about-text">
+      <h2>About Me</h2>
+       <p>Hi! I’m <strong>Stacey</strong>, an IT student with a passion for building elegant, functional websites and applications. I love learning new technologies and combining creativity with logic to solve real-world problems.</p>
+        <p>Currently studying at PUP Manila, I’m active in tech communities, and I continuously strive to grow in web development, design, and cloud technologies.</p>
+        <p>In my spare time, I enjoy experimenting with UI/UX design, reading up on AI advancements, and running my small swimwear business. 💖</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="skills-section">
+    <h2>🔧 Tech Stack & Tools</h2>
+    <div class="skills-badges">
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+      <img src="https://img.shields.io/badge/MySQL-005e87?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/HTML-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Stacey | Designed with 💻 + ☕</p>
+  </footer>
+
+  <!-- Mobile Nav Script -->
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
