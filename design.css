@@ -306,6 +306,28 @@ a:hover {
 
 /* Projects Section */
 /* Projects Section */
+
+.project-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* optional spacing from the title */
+  margin-bottom: 3rem;
+}
+
+.project-image {
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 16 / 9; /* Keeps them the same rectangular shape */
+  object-fit: cover;    /* Ensures images fill the box evenly */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 1rem auto;
+  border: 3px solid #f78fb3;
+  display: block;
+}
+
+
 .projects-section {
   min-height: 100vh;
   padding: 4rem 2rem;
